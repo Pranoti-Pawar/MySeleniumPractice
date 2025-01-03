@@ -47,7 +47,7 @@ public class Testcase5 {
 			System.out.println("Test case fail...");
 		}
 		
-		//Browser foeword
+		//Browser forword
 		driver.navigate().forward();
 		title=driver.getTitle();
 		if(title.equals("python - google Search")) {
